@@ -1,5 +1,5 @@
 <?php
-include('protect.php');
+include('conta/protect.php');
 ?>
     
 <!DOCTYPE html>
@@ -31,14 +31,26 @@ include('protect.php');
         </nav>
         <button class="button-login"><a href="tela-login.php" class="cta">Entrar</a></button>
     </header>
+<div class="follow-header">
+    <div class="text-follow-header"><h1>Bem vindo de volta <?php echo $_SESSION['nome'];?></h1>
+    <br>
+    <div class="follow-header-in">
+        <p>&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Ut facilis assumenda qui recusandae, minus quas 
+            obcaecati aliquid similique ea voluptas autem veritatis 
+            accusantium hic architecto a, laboriosam, cum asperiores atque.</p>
+            </div>
+</div>
+    
+</div>
 
+<div class="logout-box" style="color: white; display:flex; padding:3rem; gap:1rem;">
+    <h4>Precisa dar um tempo?</h4>
+    <button class="button-login" style="background-color:red; "><p>
+        <a href="logout.php">Sair</a>
+    </p></button>
+</div>
 
-    <p>Bem vindo de volta <?php echo $_SESSION['nome']; ?></p>
-<button><p>
-    <a href="logout.php">Sair</a>
-</p></button>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <footer>
         <div id="footer_content">

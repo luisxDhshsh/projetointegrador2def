@@ -2,7 +2,7 @@
 
 if(!session_id()) session_start();
 
-include('conexao.php');
+include('conta/conexao.php');
 header('Content-Type: text/html; charset=utf-8');
 
 if(isset($_SESSION['id'])){
@@ -12,10 +12,11 @@ if(isset($_SESSION['id'])){
 if(isset($_POST['email']) || isset($_POST['senha'])){
 
     if(strlen($_POST['email']) == null) {
-        echo "O campo e-mail não pode estar em branco";
+        echo "<script type='text/javascript'>alert('O campo E-mail não pode estar em branco')</script>";
     } else if(strlen($_POST['senha']) == null) {
-        echo "O campo senha não pode estar em branco";
+        echo "<script type='text/javascript'>alert('O campo Senha não pode estar em branco')</script>";
     } else{
+        
         $email = $mysqli->real_escape_string($_POST['email']);
         $senha = $mysqli->real_escape_string($_POST['senha']);
 
@@ -38,7 +39,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
                 header("Location: minhaConta.php");
     
             } else {
-                echo "Falha ao logar! E-mail ou senha incorretos";
+                echo "<script type='text/javascript'>alert('Falha ao logar! E-mail ou senha incorretos')</script>";
             }
     }
 }

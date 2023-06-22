@@ -30,16 +30,60 @@
     <div class="follow-header">
         <img src="assets/img/White Gold Simple Icon Attorney & Law Logo.png" alt="logo" width="400px" class="logo">
         <div class="text-follow-header"><h1>Controle, veja e simplifique sua vida aqui</h1>
-        <p><br>Bem-vindo ao nosso site! Aqui você encontrará uma introdução completa sobre a bolsa de valores, um mercado financeiro dinâmico e repleto de oportunidades.</p>
-        </div>
+        <p><br>Bem-vindo ao nosso site! Aqui você encontrará uma introdução completa sobre a bolsa de valores, um mercado financeiro dinâmico e repleto de oportunidades. </p>
+        <br>
+        <div class="follow-header-in" style="margin-left: 3%;">
+         
+            </div>
+
+    </div>
     </div>
 
+
     <div class="main-content">
-        <img src="assets/img/bolsa-de-val.jpeg" width="450px">
-        <h1>O melhor site de aprendizagem relacionada a bolsa de valores.</h1>
-       
-    </div>
+        
+    <img src="assets/img/bolsa-de-val.jpeg" width="450px" height="100%">
+        <div>
+
+        <h2 >O que é a bolsa de valores?</h2>
+        <br>
+        <p>&nbsp; A bolsa de valores é um ambiente onde ocorrem negociações de diversos ativos financeiros,
+             tais como ações de empresas, títulos de dívida, mercadorias e derivativos. É por meio desse
+              mercado que empresas conseguem captar recursos ao venderem ações, o que impulsiona seu 
+              crescimento, e investidores têm a chance de adquirir essas ações e se tornarem sócios das 
+              empresas, com a possibilidade de obter lucros por meio da valorização das ações e 
+              distribuição de dividendos.</p>  
+        
+        <br>
+        <div class="follow-header-in">
+              <h2 >Participar da bolsa de valores</h2>
+        <br>
+        <p>&nbsp; Para participar da bolsa de valores, é necessário abrir uma conta em uma 
+            corretora autorizada. Essas instituições financeiras fornecem acesso às plataformas
+             de negociação, por onde os investidores podem enviar ordens de compra ou venda de
+              ativos. As ordens são executadas eletronicamente, levando em consideração a oferta
+               e a demanda existentes.</p> 
+        
+<br>
+
     
+               </div>
+               
+               </div>
+               
+    </div>
+    <div class="follow-header">
+        <div>
+    <h2 >Participar da bolsa de valores</h2>
+        <br>
+        <p>&nbsp; Para participar da bolsa de valores, é necessário abrir uma conta em uma 
+            corretora autorizada. Essas instituições financeiras fornecem acesso às plataformas
+             de negociação, por onde os investidores podem enviar ordens de compra ou venda de
+              ativos. As ordens são executadas eletronicamente, levando em consideração a oferta
+               e a demanda existentes.</p>  
+               </div>
+               <img src="assets/img/bolsa-de-val2.jpeg" width="450px" height="100%">
+               </div>
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
@@ -70,25 +114,25 @@
                     <h3>E-mail:</h3>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">stocklush</a>
+                    <a href="#" class="footer-link">StockLush@gmail.com</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Adventures</a>
+                    <a href="#" class="footer-link">luisfelipesaar@gmail.com</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Music</a>
+                    <a href="#" class="footer-link">mateussobral970@gmail.com</a>
                 </li>
             </ul>
 
             <ul class="footer-list">
                 <li>
-                    <h3>Products</h3>
+                    <h3>Comunidade</h3>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">App</a>
+                    <a href="#" class="footer-link">Comunidade Discord</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Desktop</a>
+                    <a href="#" class="footer-link">Comunidade Telegram</a>
                 </li>
                 <li>
                     <a href="#" class="footer-link"></a>

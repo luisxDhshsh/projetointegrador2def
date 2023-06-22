@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    color: white;
 }
 
 html{
@@ -79,6 +80,7 @@ header{
 .main-content{
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 83vw;
     display: flex;
     border-radius: 1rem;
@@ -189,7 +191,6 @@ header{
     border-radius: 0.5rem;
     padding: 10px;
 }
-
 
 :root {
     --color-neutral-0: #0e0c0c;
