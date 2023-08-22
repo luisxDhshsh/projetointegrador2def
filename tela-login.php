@@ -55,6 +55,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
     <link rel="shortcut icon" href="assets/img/White_Gold_Simple_Icon_Attorney___Law_Logo-removebg-preview.png" type="image/x-icon">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='assets/js/main.js'></script>
     
 </head>
@@ -86,7 +87,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
                 <div class="textfield">
                     <label for="senha">Senha:</label>
                     <input type="password" name="senha" placeholder="Insira sua senha">
-                    <br>
+                <p class="help-session-account" style="margin-top: 6px;">Ainda não tem uma conta? <a href="register.php" class="link-green">Registre-se</a></p>
                 </div>
             <div class="help-session-evolve">
                 <div class="help-session">
@@ -101,10 +102,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
                 <button class="btn-login"><p>&nbsp; Entrar &nbsp;</p></button>
             </div>
                 </form>
-            <div class="textfield">
-                <p class="help-session-account">Ainda não tem uma conta? <a href="register.php" class="link-green">Registre-se</a></p>
-            </div>
-            <div class="textfield-google"><p>Faça login com o Google <br></p>
+            <div class="textfield-google"><p>Faça login com o Google</p>
                 <img src="assets/img/google.png" width="22px">
             </div>
             </div>
@@ -112,6 +110,22 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
         </div>
 
     </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <h3>Stock Lush</h3>
+            <p>O melhor site-escola para aprendizagem e simulação da bolsa de valores</p>
+            <p>Entre em contato com nós</p>
+            <ul class="socials">
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        
+    </footer>
 
 
     

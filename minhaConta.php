@@ -12,6 +12,7 @@ include('conta/protect.php');
     <link rel="shortcut icon" href="assets/img/White_Gold_Simple_Icon_Attorney___Law_Logo-removebg-preview.png" type="image/x-icon">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='main.js'></script>
 
 </head>
@@ -52,81 +53,19 @@ include('conta/protect.php');
 </div>
 
 
-    <footer>
-        <div id="footer_content">
-            <div id="footer_contacts">
-                <h1>Visite-nos</h1>
-                <p></p>
-
-                <div id="footer_social_media">
-                    <a href="#" class="footer-link" id="instagram">
-                        <img src="assets/img/instagramico.png" class="social-footer">
-                    </a>
-
-                    <a href="#" class="footer-link" id="facebook">
-                        <img src="assets/img/facebookico.png" class="social-footer">
-                    </a>
-
-                    <a href="#" class="footer-link" id="twitter">
-                        <img src="assets/img/twitterico.png" class="social-footer">
-                    </a>
-
-                    <a href="#" class="footer-link" id="discord">
-                        <img src="assets/img/discordico.png" class="social-footer">
-                    </a>
-                </div>
-            </div>
-            
-            <ul class="footer-list">
-                <li>
-                    <h3>E-mail:</h3>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">stocklush</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Adventures</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Music</a>
-                </li>
+<footer>
+        <div class="footer-content">
+            <h3>Stock Lush</h3>
+            <p>O melhor site-escola para aprendizagem e simulação da bolsa de valores</p>
+            <p>Entre em contato com nós</p>
+            <ul class="socials">
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
             </ul>
-
-            <ul class="footer-list">
-                <li>
-                    <h3>Products</h3>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">App</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Desktop</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link"></a>
-                </li>
-            </ul>
-
-            <div id="footer_subscribe">
-                <h3>Inscreva-se</h3>
-
-                <p>
-                    Digite seu e-mail para fazer parte de nossa comunidade
-                </p>
-
-                <div id="input_group">
-                    <input type="email" id="email">
-                    <button>
-                        <i class="fa-regular fa-envelope"></i>
-                    </button>
-                </div>
-            </div>
         </div>
-
-        <div id="footer_copyright">
-            &#169
-            2023 Todos os direitos reservados
-        </div>
+        
     </footer>
      
 </body>
