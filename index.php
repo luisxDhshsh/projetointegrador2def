@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>StockLush</title>
-    <link rel="shortcut icon" href="assets/img/White_Gold_Simple_Icon_Attorney___Law_Logo-removebg-preview.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/panda-login.png" type="image/x-icon">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +16,7 @@
 <body>
 
     <header class="header-index">
-        <a href="index.php"><h1 id="customizacao">SL</h1></a>
+        <a href="index.php"><h1 id="customizacao">StockLush</h1></a>
 
         <nav>
             <ul class="nav-links">
@@ -105,49 +105,7 @@
     </footer>
 
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-// Recuperando o contexto do canvas
-// Recuperando o contexto do canvas
-var ctx = document.getElementById('chart').getContext('2d');
-
-// Função para buscar os últimos 10 valores do Bitcoin
-function buscarDadosBitcoin() {
-  // Fazendo uma requisição à API CoinDesk para obter os dados
-  fetch('https://api.coindesk.com/v1/bpi/historical/close.json?start=2022-01-01&end=2022-01-10')
-    .then(response => response.json())
-    .then(data => {
-      // Processando os dados recebidos
-      var labels = Object.keys(data.bpi);
-      var valores = Object.values(data.bpi);
-
-      // Criando o gráfico de bolsa de valores
-      var chart = new Chart(ctx, {
-        type: 'line',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'Valor do Bitcoin',
-            data: valores,
-            borderColor: 'red',
-            fill: true
-          }]
-        },
-        options: {
-          // Configurações adicionais
-        }
-      });
-    })
-    .catch(error => {
-      console.error('Erro ao buscar os dados:', error);
-    });
-}
-
-// Chamando a função para buscar os dados e criar o gráfico
-buscarDadosBitcoin();
-
-    </script>
+  
 </body>
 
 </html>

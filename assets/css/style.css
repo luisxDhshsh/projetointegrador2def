@@ -20,6 +20,7 @@ body {
     background: linear-gradient(#2E2836, #3C3446);
 }
 
+
 h1 {
 
     font-family: 'Oswald', sans-serif;
@@ -49,7 +50,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 5%;
-    background-color: #463C53;
+    background-color: white;
 }
 
 .logo {
@@ -86,7 +87,6 @@ header {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 83vw;
-    display: flex;
     border-radius: 1rem;
     gap: 2rem;
 }
@@ -98,6 +98,11 @@ header {
 .follow-header {
     padding: 100px;
     display: flex;
+    background-color: #463C53;
+}
+
+.light-div {
+    padding: 100px;
     background-color: #463C53;
 }
 
@@ -313,4 +318,8 @@ footer {
         margin-top: 10px;
         margin-bottom: 20px;
     }
+}
+
+#customizaçao{
+    color: black;
 }
