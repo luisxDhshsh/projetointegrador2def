@@ -20,7 +20,7 @@ include('conta/protect.php');
 <body>
 
     <header class="header-index">
-        <a href="index.php"><h1 id="customizacao">SL</h1></a>
+        <a href="index.php"><h1 id="customizacao">StockLush</h1></a>
 
         <nav>
             <ul class="nav-links">
