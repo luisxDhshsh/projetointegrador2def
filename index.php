@@ -29,7 +29,7 @@
         <button class="button-login"><a href="tela-login.php" class="cta">Entrar</a></button>
     </header>
     <div class="follow-header">
-        <img src="assets/img/White Gold Simple Icon Attorney & Law Logo.png" alt="logo" width="400px" class="logo">
+        <img src="assets/img/White Gold Simple Icon Attorney & Law Logo.png" alt="logo" class="logo">
         <div class="text-follow-header"><h1>Controle, veja e simplifique sua vida aqui</h1>
         <p><br>Bem-vindo ao nosso site! Aqui você encontrará uma introdução completa sobre a bolsa de valores, um mercado financeiro dinâmico e repleto de oportunidades. </p>
         <br>
