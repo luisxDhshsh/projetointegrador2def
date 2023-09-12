@@ -19,19 +19,7 @@ include('conta/protect.php');
 
 <body>
 
-    <header class="header-index">
-        <a href="index.php"><h1 id="customizacao">StockLush</h1></a>
-
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.php">Página Inicial</a></li>
-                <li><a href="ensinadosobrebolsa.php">Ensinando sobre a Bolsa de Valores</a></li>
-                <li><a href="bolsadevalores.php">Bolsa de Valores</a></li>
-            </ul>
-
-        </nav>
-        <button class="button-login"><a href="tela-login.php" class="cta">Entrar</a></button>
-    </header>
+<?php include_once("componentes/navbar.html") ?>
 <div class="follow-header">
     <div class="text-follow-header"><h1>Bem vindo de volta <?php echo $_SESSION['nome'];?></h1>
     <br>

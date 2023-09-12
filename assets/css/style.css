@@ -56,7 +56,10 @@ header {
 
 .logo {
     cursor: pointer;
-    border-radius: 20rem;
+    border-radius: 100%;
+    width: 70%;
+    margin: auto;
+    display: table;
 }
 
 .button-login {
@@ -80,7 +83,7 @@ header {
 }
 
 .nav-links li a:hover {
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Aumente a sombra ao passar o mouse */
+    text-shadow: 0 0 10px rgba(0.2, 0.4, 0.5, 0.8); /* Aumente a sombra ao passar o mouse */
 }
 
 
@@ -339,13 +342,47 @@ footer {
 }
 
 .text-follow-header {
-    padding: 1rem;
-    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 83vw;
+    border-radius: 1rem;
+    gap: 2rem;
     font-family: Arial, Helvetica, sans-serif !important;
 }
 
-.logo {
-    width: 100%;
-    margin: auto;
-    display: table;
+
+.menu-icon {
+    display: none;
+    width: 24px;
+    align-self: right;
+}
+
+@media screen and (min-width: 900px) {
+    .nav-links {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .nav-links li {
+        padding: 10px;
+    }
 }

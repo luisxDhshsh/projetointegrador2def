@@ -11,19 +11,7 @@
     <script src='assets/js/main.js'></script>
 </head>
 
-<header class="header-index">
-    <a href="index.php"><h1 id="customizacao">StockLush</h1></a>
-
-    <nav>
-        <ul class="nav-links">
-            <li><a href="index.php">Página Inicial</a></li>
-            <li><a href="ensinadosobrebolsa.php">Ensinando sobre a Bolsa de Valores</a></li>
-            <li><a href="bolsadevalores.php">Bolsa de Valores</a></li>
-        </ul>
-
-    </nav>
-    <button class="button-login"><a href="tela-login.php" class="cta">Entrar</a></button>
-</header>
+<?php include_once("componentes/navbar.html") ?>
 <div class="follow-header">
     <img src="assets/img/panda-login.png" alt="panda" width="400px">
     <div class="text-follow-header"><h1>Controle, veja e simplifique sua vida aqui</h1>
