@@ -10,6 +10,7 @@
     text-decoration: none;
     color: black;
     font-family: 'Lora', serif;
+    text-align: justify;
 }
 
 html {
@@ -21,6 +22,9 @@ body {
     background: white;
 }
 
+.header-index{
+   background-color: #ffd683 ;
+}
 
 h1 {
 
@@ -57,7 +61,7 @@ header {
 .logo {
     cursor: pointer;
     border-radius: 100%;
-    width: 70%;
+    width: 40%;
     margin: auto;
     display: table;
 }
@@ -342,9 +346,7 @@ footer {
 }
 
 .text-follow-header {
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 30px;
     width: 83vw;
     border-radius: 1rem;
     gap: 2rem;
@@ -356,6 +358,10 @@ footer {
     display: none;
     width: 24px;
     align-self: right;
+}
+
+.nav-links > span {
+    display: none
 }
 
 @media screen and (min-width: 900px) {
@@ -373,16 +379,37 @@ footer {
     .nav-links {
         display: none;
         flex-direction: column;
-        text-align: center;
+        text-align: unset;
         background-color: #333;
-        position: absolute;
-        top: 60px;
-        left: 0;
+        position: fixed;
         right: 0;
-        z-index: 1;
+        top: 0.2rem;
+        padding: 0.2rem;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+
+    .nav-links > span {
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        color: #ff0000;
+        cursor: pointer;
     }
 
     .nav-links li {
         padding: 10px;
+    }
+
+    .follow-header{
+        flex-direction: column;
+        padding: 3% 0%;
+    }
+
+    .footer-content{
+        padding: 10vw 5vw;
     }
 }

@@ -60,8 +60,6 @@
 
         </div>
 
-    </div>
-    <div class="follow-header">
         <div>
             <h2>Participar da bolsa de valores</h2>
             <br>
@@ -71,11 +69,8 @@
                 ativos. As ordens são executadas eletronicamente, levando em consideração a oferta
                 e a demanda existentes.</p>
         </div>
-        <!-- <img src="assets/img/bolsa-de-val2.jpeg" width="450px" height="100%"> -->
+
     </div>
-    <canvas id="chart"></canvas>
-
-
 
     <footer>
         <div class="footer-content">
