@@ -76,20 +76,8 @@
   </script>
 
 
-<footer>
-        <div class="footer-content">
-            <h3>Stock Lush</h3>
-            <p>O melhor site-escola para aprendizagem e simulação da bolsa de valores</p>
-            <p>Entre em contato com nós</p>
-            <ul class="socials">
-                <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-            </ul>
-        </div>
-        
-    </footer>
+<!-- FOOTER -->
+<?php include_once("componentes/footer.html") ?>
     
   
 </body>

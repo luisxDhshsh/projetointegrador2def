@@ -1,50 +1,3 @@
-<?php
-
-if(!session_id()) session_start();
-
-include('conta/conexao.php');
-header('Content-Type: text/html; charset=utf-8');
-
-if(isset($_SESSION['id'])){
-    header('Location: minhaConta.php');
-    die();
-}
-if(isset($_POST['email']) || isset($_POST['senha'])){
-
-    if(strlen($_POST['email']) == null) {
-        echo "<script type='text/javascript'>alert('O campo E-mail não pode estar em branco')</script>";
-    } else if(strlen($_POST['senha']) == null) {
-        echo "<script type='text/javascript'>alert('O campo Senha não pode estar em branco')</script>";
-    } else{
-        
-        $email = $mysqli->real_escape_string($_POST['email']);
-        $senha = $mysqli->real_escape_string($_POST['senha']);
-
-        $sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
-        $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
-
-        $quantidade = $sql_query->num_rows;
-
-        if($quantidade == 1) {
-            
-            $usuario = $sql_query->fetch_assoc();
-
-            if(!isset($_SESSION)) {
-                session_start();
-            }
-
-                $_SESSION['id'] = $usuario['id'];
-                $_SESSION['nome'] = $usuario['nome'];
-    
-                header("Location: minhaConta.php");
-    
-            } else {
-                echo "<script type='text/javascript'>alert('Falha ao logar! E-mail ou senha incorretos')</script>";
-            }
-    }
-}
-
-?>
 
 <!DOCTYPE html>
 <html>
@@ -100,20 +53,8 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
     </div>
 
 
-    <footer>
-        <div class="footer-content">
-            <h3>Stock Lush</h3>
-            <p>O melhor site-escola para aprendizagem e simulação da bolsa de valores</p>
-            <p>Entre em contato com nós</p>
-            <ul class="socials">
-                <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-            </ul>
-        </div>
-        
-    </footer>
+<!-- FOOTER -->
+<?php include_once("componentes/footer.html") ?>
 
 
     

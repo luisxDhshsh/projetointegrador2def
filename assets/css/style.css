@@ -71,7 +71,11 @@ header {
     padding: 9px 25px;
     border: solid black 0.01rem;
     transition: all 0.3s ease 0s;
-    border-radius: 0.7rem;
+    border-radius: 2rem;
+}
+
+.button-login-cell {
+    display: none;
 }
 
 .nav-links {
@@ -383,25 +387,46 @@ footer {
         background-color: #333;
         position: fixed;
         right: 0;
-        top: 0.2rem;
-        padding: 0.2rem;
+        top: 0rem;
+        padding-top: 2rem;
+        padding-left: 0.5rem;
         background-color: white;
-        border: 1px solid black;
-        border-radius: 0.5rem;
+        height: 100vh;
+    }
+
+    .logo-cell{
+        display: block;
     }
 
     .nav-links > span {
         position: absolute;
-        right: 8px;
-        top: 8px;
+        right: 20px;
+        top: 20px;
         font-family: 'Arial', sans-serif;
-        font-weight: bold;
-        color: #ff0000;
+        color: #000;
         cursor: pointer;
+    }
+
+    .button-login-cell {
+        display: block;
+        cursor: pointer;
+        padding: 9px 25px;
+        border: solid black 0.01rem;
+        transition: all 0.3s ease 0s;
+        border-radius: 2rem;
+        bottom: 0;
+    }
+
+    .footer-login{
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
     }
 
     .nav-links li {
         padding: 10px;
+        border-left: solid 1px #ffd683 ;
+        margin-bottom: 5px;
     }
 
     .follow-header{
